@@ -1,0 +1,59 @@
+html, body {
+  background-color: #04C7E9;
+
+}
+
+
+
+#newQuotes {
+   text-align: center;
+   padding-top: 50px;
+   padding-bottom: 30px;
+   color: white;
+   padding-left: 40px;
+   padding-right: 40px;
+  font-family: 'Montserrat', sans-serif;
+   font-size: 25px;
+}
+
+#intro  {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  padding-top: 40px;
+  border-bottom: 1px; white;
+  float: center;
+}
+
+
+}
+button {
+  padding-top: 100px;
+  text-align: center;
+
+}
+
+@media (max-width:767px){
+    #button {
+      text-align: center;
+      padding-right: 45px;
+}
+
+}
+
+.btn-primary {
+  background-color: #D70617;
+  border-color: #F05F44;
+
+}
+
+.btn-primary:hover {
+  background-color: #FC0404;
+  border-color: #fff;
+  border-width: 2px;
+  cursor: pointer;
+}
+
+#twitterLink {
+  padding-left: 10px;
+}
