@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Acep :(</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: black;
+      }
+
+      .running_text {
+        display: inline-block;
+        animation: running_text 20s linear infinite;
+        white-space: nowrap;
+        text-align: left;
+      }
+      .running_text h1 {
+        color: red;
+        font-size: 15rem;
+        font-weight: 700;
+        text-shadow: -1px -1px white;
+        text-transform: capitalize;
+        padding: 0 50%;
+      }
+      @keyframes running_text {
+        0% {
+          transform: translate(100%, 0);
+        }
+        100% {
+          transform: translate(-100%, 0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="running_text">
+      <h1>Pengen main ama ayang :(</h1>
+    </div>
+  </body>
+</html>
