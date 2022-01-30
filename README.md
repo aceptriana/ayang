@@ -1,0 +1,2 @@
+# ayang
+Mode Bucin ON
